@@ -1,5 +1,5 @@
 class Solution:
-    def trap(self, height: List[int]) -> int:
+    def trap(self, height):
         maxl = -1
         maxHeight = [[-1,-1] for _ in range(len(height))]
         
